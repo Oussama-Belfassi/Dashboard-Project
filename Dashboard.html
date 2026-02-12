@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="Dashboard.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="search">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="right">
+                <div class="buttons">
+                    <button class="light"><span class="material-symbols-outlined">
+                            light_mode
+                        </span></button>
+                    <button class="dark"><span class="material-symbols-outlined">
+                            dark_mode
+                        </span></button>
+                </div>
+                <div class="profil">
+                    <img src="images/profil.png" alt="">
+                    <span>Oussama</span>
+                    <span class="material-symbols-outlined" id="down">
+                        keyboard_arrow_down
+                    </span>
+                    <div class="up">
+                        <h4>User Profile</h4>
+                        <div class="up1">
+                            <div class="img">
+                                <img src="images/profil.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h4>Oussama Belfassi</h4>
+                                <h5>Admin</h5>
+                                <div>
+                                    <span class="material-symbols-outlined">
+                                        mail
+                                    </span>
+                                    <span>o.belfassi7993@uca.ac.ma</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="up2">
+                            <div class="up21">
+                                <div class="up211">
+                                    <span class="material-symbols-outlined"
+                                        style="font-size: 25px; color: rgb(80, 121, 255);">
+                                        account_circle
+                                    </span>
+                                </div>
+                                <div class="up212">
+                                    <h5>My Profil</h5>
+                                    <span>Account settings</span>
+                                </div>
+                            </div>
+                            <div class="up21">
+                                <div class="up211" style="background-color: var(--color-success-light);">
+                                    <span class="material-symbols-outlined" style="color: var(--color-success);">
+                                        speaker_notes
+                                    </span>
+                                </div>
+                                <div class="up212">
+                                    <h5>My Notes</h5>
+                                    <span>My Daily Notes</span>
+                                </div>
+                            </div>
+                            <div class="up21">
+                                <div class="up211" style="background-color: var(--color-danger-light);">
+                                    <span class="material-symbols-outlined" style="color: var(--color-danger);">
+                                        list_alt_check
+                                    </span>
+                                </div>
+                                <div class="up212">
+                                    <h5>My Tasks</h5>
+                                    <span>To-do and Daily tasks</span>
+                                </div>
+                            </div>
+                            <button>
+                                Logout<span class="material-symbols-outlined">
+                                    logout
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="nav1">
+                <ul>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                dashboard
+                            </span><span>Dashboard</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                currency_exchange
+                            </span><span>Extchange</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                account_balance_wallet
+                            </span><span>Wallet</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                credit_card
+                            </span><span>Transactions</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                pie_chart
+                            </span><span>Analytics</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                chat
+                            </span><span>Messages</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                live_help
+                            </span><span>Help Center</span></a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                                settings
+                            </span><span>Settings</span></a></li>
+                </ul>
+            </div>
+            <div class="nav2">
+                <span class="material-symbols-outlined">
+                    update
+                </span>
+                <h4>Updates Available</h4>
+                <div>
+                    <span>Security Updates</span>
+                    <span>General Updates</span>
+                </div>
+                <button>Update Now</button>
+            </div>
+        </nav>
+        <main>
+            <section class="first">
+                <div class="first1">
+                    <h2>Overview</h2>
+                    <input type="date">
+                </div>
+                <div class="first2">
+                    <div class="cart1">
+                        <div class="div1">
+                            <div class="div11">
+                                <img src="images/BTC.png" alt="">
+                                <span>BTC</span>
+                            </div>
+                            <img src="images/visa.png" alt="">
+                        </div>
+                        <div class="div2">
+                            <span>$827,199</span>
+                            <img src="images/card chip.png" alt="">
+                        </div>
+                        <div class="div3">
+                            <div>
+                                <span class="span1">Card Holder</span>
+                                <span>John Doe</span>
+                            </div>
+                            <div>
+                                <span class="span1">Expiry</span>
+                                <span>08/23</span>
+                            </div>
+                            <div>
+                                <span class="span1" style="padding-left: 1px;">cvv</span>
+                                <span>123</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart2">
+                        <div class="div1">
+                            <div class="div11">
+                                <img src="images/ETH.png" alt="">
+                                <span>ETH</span>
+                            </div>
+                            <img src="images/master card.png" alt="">
+                        </div>
+                        <div class="div2">
+                            <span>$95,623</span>
+                            <img src="images/card chip.png" alt="">
+                        </div>
+                        <div class="div3">
+                            <div>
+                                <span class="span1">Card Holder</span>
+                                <span>John Doe</span>
+                            </div>
+                            <div>
+                                <span class="span1">Expiry</span>
+                                <span>08/23</span>
+                            </div>
+                            <div>
+                                <span class="span1" style="padding-left: 1px;">cvv</span>
+                                <span>123</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart3">
+                        <div class="div1">
+                            <div class="div11">
+                                <img src="images/BTC.png" alt="">
+                                <span>BTC</span>
+                            </div>
+                            <img src="images/visa.png" alt="">
+                        </div>
+                        <div class="div2">
+                            <span>$74,384</span>
+                            <img src="images/card chip.png" alt="">
+                        </div>
+                        <div class="div3">
+                            <div>
+                                <span class="span1">Card Holder</span>
+                                <span>John Doe</span>
+                            </div>
+                            <div>
+                                <span class="span1">Expiry</span>
+                                <span>08/23</span>
+                            </div>
+                            <div>
+                                <span class="span1" style="padding-left: 1px;">cvv</span>
+                                <span>123</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first3">
+                    <div>
+                        <span>Income</span>
+                        <details>
+                            <span style="font-size: 20px; font-weight: bold;">$29,023</span>
+                            <span style="font-size: 10px; color: rgb(34, 202, 75);">+3.5%</span>
+                        </details>
+                        <p>Compared to $26,938 last month</p>
+                    </div>
+                    <div>
+                        <span>Expenses</span>
+                        <details>
+                            <span style="font-size: 20px; font-weight: bold;">$9,005</span>
+                            <span style="font-size: 10px; color: rgb(255, 67, 54);">-6.5%</span>
+                        </details>
+                        <p>Compared to $11,912 last month</p>
+                    </div>
+                    <div>
+                        <span>Cashback</span>
+                        <details>
+                            <span style="font-size: 20px; font-weight: bold;">$9,004</span>
+                            <span style="font-size: 10px; color: rgb(34, 202, 75);">+7.1%</span>
+                        </details>
+                        <p>Compared to $3,028 last month</p>
+                    </div>
+                    <div>
+                        <span>Income</span>
+                        <details>
+                            <span style="font-size: 20px; font-weight: bold;">
+                                $118,224
+                            </span>
+                            <span style="font-size: 10px; color: rgb(255, 67, 54);">
+                                -17.8%
+                            </span>
+                        </details>
+                        <p>Compared to $114,234 last month</p>
+                    </div>
+                </div>
+                <div class="first4">
+                    <h3>Fast Payment</h3>
+                    <div class="divs">
+                        <button class="add"><span class="material-symbols-outlined">
+                                add
+                            </span></button>
+                        <div class="wrap">
+                            <span class="ball" style="background-color: rgb(71, 7, 234);"></span>
+                            <span>Training</span>
+                            <span style="font-weight: bold; font-size: 14px;">$50</span>
+                        </div>
+                        <div class="wrap">
+                            <span class="ball" style="background-color:rgb(34, 202, 75);"></span>
+                            <span>Internet</span>
+                            <span style="font-weight: bold; font-size: 14px;">$40</span>
+                        </div>
+                        <div class="wrap">
+                            <span class="ball" style="background-color: rgb(71, 7, 234);"></span>
+                            <span>Gas</span>
+                            <span style="font-weight: bold; font-size: 14px;">$190</span>
+                        </div>
+                        <div class="wrap">
+                            <span class="ball" style="background-color:rgb(255, 67, 54);"></span>
+                            <span>Movies</span>
+                            <span style="font-weight: bold; font-size: 14px;">$35</span>
+                        </div>
+                        <div class="wrap">
+                            <span class="ball" style="background-color: rgb(71, 7, 234);"></span>
+                            <span>Education</span>
+                            <span style="font-weight: bold; font-size: 14px;">$999</span>
+                        </div>
+                        <div class="wrap">
+                            <span class="ball" style="background-color:rgb(255, 67, 54);"></span>
+                            <span>Electicity</span>
+                            <span style="font-weight: bold; font-size: 14px;">$109</span>
+                        </div>
+                        <div class="wrap">
+                            <span class="ball" style="background-color:rgb(34, 202, 75);"></span>
+                            <span>Food</span>
+                            <span style="font-weight: bold; font-size: 14px;">$399</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="first5">
+                    <canvas id="chart"></canvas>
+                </div>
+            </section>
+            <section class="second">
+                <div class="one">
+                    <div class="top">
+                        <h3>Investments</h3>
+                        <a href="#">More <span class="material-symbols-outlined">
+                                chevron_right
+                            </span></a>
+                    </div>
+                    <div class="Inv">
+                        <img src="images/uniliver.png" alt="">
+                        <span>Uniliver</span>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">7 Nov, 2026</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">9:14pm</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">1402</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">Bonds</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 14px; font-weight: bold;">$20,033</span>
+                            <span style="font-size: 11px;
+    color: rgba(255, 67, 54, 0.668); font-weight: 500;">-4.27%</span>
+                        </div>
+                    </div>
+                    <div class="Inv">
+                        <img src="images/tesla.png" alt="">
+                        <span>Tesla</span>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">7 Nov, 2026</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">9:14pm</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">1402</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">Bonds</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 14px; font-weight: bold;">$20,033</span>
+                            <span style="font-size: 11px;
+    color: rgba(34, 202, 76, 0.608); font-weight: 500;">+36.09%</span>
+                        </div>
+                    </div>
+                    <div class="Inv">
+                        <img src="images/monster.png" alt="">
+                        <span>Monster</span>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">7 Nov, 2026</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">9:14pm</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">1402</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">Bonds</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 14px; font-weight: bold;">$20,033</span>
+                            <span style="font-size: 11px;
+    color: rgba(34, 202, 76, 0.608); font-weight: 500;">+6.66%</span>
+                        </div>
+                    </div>
+                    <div class="Inv">
+                        <img src="images/mcdonalds.png" alt="">
+                        <span>Mcdonalds</span>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">7 Nov, 2026</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">9:14pm</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;
+    color: #56555e; font-weight: 400;">1402</span>
+                            <span style="font-size: 11px;
+    color: var(--color-gray-light);">Bonds</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 14px; font-weight: bold;">$20,033</span>
+                            <span style="font-size: 11px;
+    color: rgba(255, 67, 54, 0.668); font-weight: 500;">-4.27%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="two">
+                    <div class="top">
+                        <h3>Recent Transactions</h3>
+                        <a href="#">More <span class="material-symbols-outlined">
+                                chevron_right
+                            </span></a>
+                    </div>
+                    <div class="buttom">
+                        <div class="section">
+                            <div class="section1">
+                                <div class="span" style="background-color: var(--color-purple-light);">
+                                    <span class="material-symbols-outlined" style="color: var(--color-purple);">
+                                        headset_mic
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Music</span>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">20.11.2026</span>
+                                </div>
+                            </div>
+                            <div class="section2">
+                                <div class="image">
+                                    <img src="images/visa.png" alt="">
+                                </div>
+                                <div>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">*2757</span>
+                                    <span style="font-size: 11px;
+    color: var(--color-gray-light);">Credit Card</span>
+                                </div>
+                            </div>
+                            <div class="section3">
+                                <span class="mon">-$20</span>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="section1">
+                                <div class="span" style="background-color: var(--color-purple-light);">
+                                    <span class="material-symbols-outlined" style="color: var(--color-purple);">
+                                        shopping_bag
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Shopping</span>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">21.11.2026</span>
+                                </div>
+                            </div>
+                            <div class="section2">
+                                <div class="image"
+                                    style=" background-color: var(--color-primary); box-shadow: 0 5px 5px 0 var(--color-primary-light);">
+                                    <img src="images/visa.png" alt="">
+                                </div>
+                                <div>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">*1920</span>
+                                    <span style="font-size: 11px;
+    color: var(--color-gray-light);">Credit Card</span>
+                                </div>
+                            </div>
+                            <div class="section3">
+                                <span class="mon">-$799</span>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="section1">
+                                <div class="span" style="background-color: var(--color-success-light);">
+                                    <span class="material-symbols-outlined" style="color: var(--color-success);">
+                                        restaurant
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Restaurant</span>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">19.11.2026</span>
+                                </div>
+                            </div>
+                            <div class="section2">
+                                <div class="image" style="background-color: #333;">
+                                    <img src="images/master card.png" alt="" style="height: 12px;">
+                                </div>
+                                <div>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">*8273</span>
+                                    <span style="font-size: 11px;
+    color: var(--color-gray-light);">Master Card</span>
+                                </div>
+                            </div>
+                            <div class="section3">
+                                <span class="mon">-50$</span>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="section1">
+                                <div class="span" style="background-color: var(--color-danger-light);">
+                                    <span class="material-symbols-outlined" style="color: var(--color-danger);">
+                                        stadia_controller
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Games</span>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">15.11.2026</span>
+                                </div>
+                            </div>
+                            <div class="section2">
+                                <div class="image">
+                                    <img src="images/visa.png" alt="">
+                                </div>
+                                <div>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">*2757</span>
+                                    <span style="font-size: 11px;
+    color: var(--color-gray-light);">Credit Card</span>
+                                </div>
+                            </div>
+                            <div class="section3">
+                                <span class="mon">-$44</span>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="section1">
+                                <div class="span" style="background-color: var(--color-success-light);">
+                                    <span class="material-symbols-outlined" style="color: var(--color-success);">
+                                        medical_services
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Pharmacy</span>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">15.11.2026</span>
+                                </div>
+                            </div>
+                            <div class="section2">
+                                <div class="image"
+                                    style=" background-color: var(--color-primary); box-shadow: 0 5px 5px 0 var(--color-primary-light)">
+                                    <img src="images/visa.png" alt="">
+                                </div>
+                                <div>
+                                    <span style="font-size: 11px;
+    color: #56555e; font-weight: 500;">
+                                        *1920
+                                    </span>
+                                    <span style="font-size: 11px;
+    color: var(--color-gray-light);">
+                                        Credit Card
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="section3">
+                                <span class="mon">-$30</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"
+        integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Dashboard.js"></script>
+</body>
+
+</html>
